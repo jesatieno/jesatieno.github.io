@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+     <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+     background-image: url("pexels-optical-chemist-340351297-30600145.jpg");
+    }
+    header {
+      background: #388e3c;
+      color: #fff;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+    }
+    header nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: 500;
+    }
+    header nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    section h2 {
+      color: #388e3c;
+      margin-bottom: 20px;
+    }
+    .experiences {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .experience-card {
+      background: #fff;
+      padding: 60px;
+      border-radius: 6px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .contact-form input, .contact-form textarea, .contact-form button {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 1rem;
+    }
+    .contact-form button {
+      background: #388e3c;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+    .login-card {
+      height: 7000px;
+      width: 2000px;
+      margin: 0px;
+      background: #fff;
+      padding: 200px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      font-size: 80px;
+      
+    }
+    footer {
+      background: #388e3c;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    button{
+
+      padding: 50px;
+      font-size: 80px;
+    }
+    input {
+      font-size: 50px;
+    }
+    h2 {
+      font-size: 100px;
+    }
+  </style>
+</head>
+<body>
+   <!-- Login -->
+  <section id="login">
+    <h2>Visitor Sign In / Register</h2>
+    <div class="login-card">
+      <form>
+       <p><label for="email">Email</label></p>
+        <p><input type="text" placeholder="Email" required></p><br><br>
+       <p><label for="password">Password</label></p>  
+        <p></p><input type="text" placeholder="Password" required></p><br><br>
+        <p></p><button type="submit">Sign In </button></p><br><br>
+        <p><a href="#">Forgot Password?</a></p>
+        
+        <input type="button" value="Sign in with Google"><br><br>
+        <input type="button" value="Sign in with Microsoft"><br><br>
+        <input type="button" value="Sign in with Microsoft"><br><br>
+      </form>
+    </div>
+  </section>
+     <a href="Our mission.html">Mission</a>
+      <a href="experience.html">Experiences</a>
+      <a href="support.html">Visitor_Info</a>
+      <a href="contact.html">Contact_Us</a>
+       <a href="about.html">About Us</a>
+</body>
+</html>
